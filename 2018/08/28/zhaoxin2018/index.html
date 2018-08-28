@@ -66,25 +66,24 @@
 <link rel="stylesheet" href="/css/prism-atom-dark.css" type="text/css">
 <link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
     
-		<body class="is-loading">
+		
+<!-- Layouts -->
+
+
+
+<!--  代码渲染  -->
+<link rel="stylesheet" href="/css/prism_coy.css" />
+<link rel="stylesheet" href="/css/typo.css" />
+<!-- 文章页 -->
+<body class="is-loading">
     <!-- Wrapper 外包 s-->
-    <div id="wrapper" class="fade-in overlay">
+    <div id="wrapper" class="fade-in">
         <!-- Intro 头部显示 s -->
-                <div id="intro">
-            <h1>Welcome to<br /><br>
-                        面向学生的编程组织 </h1>
-            <p> Whatever is worth doing is worth doing well <br/> I'll think of you every step of the way
-            </p>
-            <ul class="actions">
-                <li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
-            </ul>
-        </div>
         <!-- Intro 头部显示 e -->
         <!-- Header 头部logo start -->
         <header id="header">
     <a href="/" class="logo">Coding Together! 不仅仅是编程！</a>
 </header>
-        <!-- Header 头部logo end -->
         <!-- Nav 导航条 start -->
         <nav id="nav" class="special" >
             <ul class="menu links" >
@@ -98,7 +97,7 @@
 	            <a href="#s1">学习资源</a>
 	                    <ul class="submenu">
 	                        <li>
-	                        <a class="category-link" href="/categories/Github/">Github</a></li><li><a class="category-link" href="/categories/Test/">Test</a></li><li><a class="category-link" href="/categories/投稿/">投稿</a></li><li><a class="category-link" href="/categories/通知/">通知</a>
+	                        <a class="category-link" href="/categories/Git学习/">Git学习</a></li><li><a class="category-link" href="/categories/投稿/">投稿</a></li><li><a class="category-link" href="/categories/通知/">通知</a>
 	                    </ul>
 	        </li>
 	        
@@ -144,73 +143,46 @@
 		            
 			</ul>
 </nav>
-        <!-- Nav 导航条 end -->
-        <!-- Main 主要部分 start -->
-        
-        <!-- 文章列表   s -->
-        <div id="main" style="background-color: transparent; padding:0;">
-        <section class="link_container" style="margin-top: 0; background-color: transparent; ">
-            <div class="link_row">
-                <!-- 文章sample  s-->
 
-                
-                <div class="6u 12u(narrower)">
-                    <section class="link_box special">
-                       <a href="/2018/04/07/player/">
-                        <div class="page_title" style="background-image: url(/img/Office.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
-                            <!--标题-->
-                            <h2 class="page_title_text"> 视频插入测试 </h2>
-                            <!--段落-->
-                        </div>
-                        </a>
-                        <div class="home-post-info">
-                            <!-- Author Avatar -->
-                            <div class="home-post-info-author-avatar">
-                                <h6><span class="home-post-info-data">2018-04-07</span></h6>
-                                <div class="home-post-info-Category">
-                                    <!-- Category -->
-                                    <span>
-                            <h6>
-                            <a class="post_category-link" href="http://localhost:4000/categories/Algorithm/">
-                                <a class="post_category-link" href="/categories/Test/">Test</a></a>
-                            </h6>
-                        </span>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <!-- 文章sample  e-->
-            
+        <div id="main" >
+            <div class ="post_page_title_img" style="height: 25rem;background-image: url(招新.jpeg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >zhaoxin2018</h2></a>
             </div>
-        </section>
+            <!-- Post -->
+            <div class="typo" style="padding: 3rem;">
+                <h1 id="社团招新啦！！！"><a href="#社团招新啦！！！" class="headerlink" title="社团招新啦！！！"></a>社团招新啦！！！</h1><p>预热中，敬请期待……</p>
+<center><br><br><img src="../img/zhaoxin2.gif" alt=""><br><br></center>
+            </div>
+
+            <!-- Post Comments -->
+            
+
+<!-- LiveRe City install code -->
+<div id="lv-container" data-id="city" data-uid="MTAyMC8zNTU0MS8xMjA3Nw==">
+	<script type="text/javascript">
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+	</script>
+<noscript> Please activate JavaScript for write a comment in LiveRe</noscript>
+</div>
+<!-- completed City install code -->
+<style>
+    #lv-container{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
         </div>
-        <!-- 文章列表   end -->
-        <!-- Main 主要部分 end -->
-        <!-- footer  页码 start-->
-        <footer style="text-align: center; padding-top: 2em;">
-  
-</footer>
-
-<div class="cb-search-tool" style="position: fixed; top: 0px ; bottom: 0px; left: 0px; right:  0px;
-        opacity: 0.95; background-color: #111111; z-index: 9999; display: none;">
-
-    <input type="text" class="cb-search-content" id="cb-search-content" style="position: fixed; top: 60px" placeholder="文章标题 日期 标签" />
-
-    <div style="position: fixed; top: 16px; right: 16px;">
-        <img src="/search/img/cb-close.png"  id="cb-close-btn"/>
-    </div>
-</div>
-
-<div style="position: fixed; right: 16px; bottom: 20px;">
-    <img src="/search/img/cb-search.png"  id="cb-search-btn"  title="双击ctrl试一下"/>
-</div>
-
-<link rel="stylesheet" href="/search/css/cb-search.css">
-<script src="/search/js/bootstrap3-typeahead.min.js"></script>
-<script src="/search/js/cb-search.js"></script>
-
-        <!-- footer  页码 end-->
         <!-- Copyright 版权 start -->
                 <div id="copyright">
             <ul>
@@ -221,11 +193,10 @@
             	<span id="busuanzi_container_site_pv">2018总访问量<span id="busuanzi_value_site_pv"></span>次</span>
 			
         </div>
-        <!-- Copyright 版权 end -->
     </div>
-    <!-- Wrapper 外包 e-->
-    <!-- Scripts -->
 </body>
+
+
 
  	
 </html>
